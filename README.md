@@ -42,3 +42,36 @@ This project helps understand:
 ---
 
 ## 📂 Project Structure
+---
+
+## ▶️ How to Run
+
+1. Download or clone the repository  
+2. Open `index.html` in browser  
+3. Enter city name  
+4. Click **Search**  
+
+---
+
+## 📸 Demo UI
+
+The app includes:
+
+- Weather search box  
+- Weather info panel  
+- Search history  
+- Console event loop logs  
+
+---
+
+## 🎯 Assignment Info
+
+**Course:** Web Development II  
+**Lab:** Async Weather Tracker  
+**Concepts:** Fetch API, Async JS, Event Loop, LocalStorage  
+
+---
+
+## 📜 License
+
+This project is created for educational purposes.
