@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(#0b1d4d, #0e2a7a);
+  color: white;
+}
+
+.container {
+  width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.top {
+  display: flex;
+  gap: 20px;
+}
+
+.searchBox, .weatherBox {
+  background: #f1f1f1;
+  color: black;
+  padding: 18px;
+  border-radius: 10px;
+  flex: 1;
+}
+
+input {
+  width: 70%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+button {
+  padding: 10px 16px;
+  background: #c44a1a;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #a63d14;
+}
+
+/* HISTORY PILLS */
+#history {
+  margin-top: 8px;
+}
+
+.historyItem {
+  display: inline-block;
+  background: #c44a1a;
+  color: #fff;
+  padding: 8px 16px;
+  margin: 6px 8px 0 0;
+  border-radius: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.historyItem:hover {
+  background: #a63d14;
+  transform: translateY(-1px);
+}
+
+/* WEATHER ROWS */
+.weatherRow {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 12px;
+  background: #e9e9e9;
+  margin-bottom: 8px;
+  border-left: 4px solid #ff6a00;
+  border-radius: 6px;
+  color: #222;
+}
+
+.weatherLabel {
+  font-weight: 600;
+}
+
+.weatherValue {
+  font-weight: 500;
+}
+
+#wTemp {
+  color: #ff6a00;
+  font-weight: bold;
+}
+
+/* CONSOLE */
+.consoleBox {
+  margin-top: 20px;
+  background: #0c0c2b;
+  padding: 15px;
+  border-radius: 8px;
+}
+
+pre {
+  color: #9df;
+}
+
+#emoji{
+  text-align: center;
+  color: #7d99e6;
+}
